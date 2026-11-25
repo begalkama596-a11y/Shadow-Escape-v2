@@ -1,0 +1,6 @@
+      - name: Generate APK Download Link
+        uses: actions/upload-artifact@v4
+        with:
+          name: Shadow-Escape-Latest-APK
+          path: project/**/build/outputs/apk/debug/*.apk
+          retention-days: 90
